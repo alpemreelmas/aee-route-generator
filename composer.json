@@ -1,0 +1,25 @@
+{
+    "name": "aee/route-generator",
+    "description": "Micro package for larabase to generate automatic routing system.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aee\\RouteGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alp Emre Elmas",
+            "email": "elmasalpemre@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "aee"
+            ]
+        }
+    }
+}
