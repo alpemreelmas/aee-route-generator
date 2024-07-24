@@ -14,12 +14,5 @@
             "email": "elmasalpemre@gmail.com"
         }
     ],
-    "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "aee"
-            ]
-        }
-    }
+    "require": {}
 }
