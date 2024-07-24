@@ -1,6 +1,6 @@
 <?php 
 
-namespace AEE\RouteGenerator;
+namespace AeeRouteGenerator\Providers;
 
 use App\Http\RouteGenerator;
 use Illuminate\Support\ServiceProvider;

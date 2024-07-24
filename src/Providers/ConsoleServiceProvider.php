@@ -1,6 +1,6 @@
 <?php
 
-namespace AEE\RouteGenerator\Providers;
+namespace AeeRouteGenerator\Providers;
 
 use AEE\RouteGenerator\Commands\RouteGeneratorCommand;
 use Illuminate\Support\Collection;
