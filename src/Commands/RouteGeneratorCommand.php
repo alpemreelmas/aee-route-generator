@@ -2,8 +2,7 @@
 
 namespace AEE\RouteGenerator\Commands;
 
-use Aee\RouteGenerator\Exceptions\ModuleNotFound;
-use App\Http\RouteGenerator;
+use AeeRouteGenerator\RouteGenerator;
 use Illuminate\Console\Command;
 
 class RouteGeneratorCommand extends Command
@@ -31,7 +30,7 @@ class RouteGeneratorCommand extends Command
         try{
             app(RouteGenerator::class)->run();
             $this->info("Routes are generated successfully.");
-        }catch (FileNotFoundException $e){
+        }catch (\FileNotFoundException $e){
             $this->error($e->getMessage()."\n\n Did you forget to create route_generator.php file ? \n");
         }catch (\Exception $e){
             $this->error($e->getMessage());
