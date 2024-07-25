@@ -2,7 +2,9 @@
 
 namespace AeeRouteGenerator;
 
-use Aee\RouteGenerator\Exceptions\ModuleNotFound;
+
+use AeeRouteGenerator\Exceptions\FileNotFoundException;
+use AeeRouteGenerator\Exceptions\ModuleNotFound;
 
 class RouteGenerator
 {
@@ -51,7 +53,7 @@ class RouteGenerator
                     $this->routes[$module] = $this->getContentOfConfigFile($filePath);
                     continue;
                 }
-                throw new \FileNotFoundException("Route generator file not found : ". self::ROUTE_GENERATOR. " in " . $filePath);
+                throw new FileNotFoundException("Route generator file not found : ". self::ROUTE_GENERATOR. " in " . $filePath);
             }
             throw new ModuleNotFound("Module not found : ". $module);
         }

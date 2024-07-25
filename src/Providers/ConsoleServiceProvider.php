@@ -2,7 +2,7 @@
 
 namespace AeeRouteGenerator\Providers;
 
-use AEE\RouteGenerator\Commands\RouteGeneratorCommand;
+use AeeRouteGenerator\Commands\RouteGeneratorCommand;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
 use Nwidart\Modules\Commands;
