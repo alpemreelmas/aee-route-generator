@@ -2,7 +2,7 @@
 
 namespace AeeRouteGenerator\Providers;
 
-use App\Http\RouteGenerator;
+use AeeRouteGenerator\RouteGenerator;
 use Illuminate\Support\ServiceProvider;
 
 class RouteGeneratorServiceProvider extends ServiceProvider

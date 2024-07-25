@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http;
+namespace AeeRouteGenerator;
 
 use Aee\RouteGenerator\Exceptions\ModuleNotFound;
 
