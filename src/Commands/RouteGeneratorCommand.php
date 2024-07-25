@@ -1,6 +1,6 @@
 <?php
 
-namespace AEE\RouteGenerator\Commands;
+namespace AeeRouteGenerator\Commands;
 
 use AeeRouteGenerator\RouteGenerator;
 use Illuminate\Console\Command;

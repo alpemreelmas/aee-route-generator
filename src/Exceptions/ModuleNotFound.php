@@ -1,6 +1,6 @@
 <?php
 
-namespace Aee\RouteGenerator\Exceptions;
+namespace AeeRouteGenerator\Exceptions;
 
 class ModuleNotFound extends \Exception
 {
