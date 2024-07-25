@@ -18,7 +18,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AeeRouteGenerator\\Providers\\RouteGeneratorServiceProvider"
+                "AeeRouteGenerator\\Providers\\RouteGeneratorServiceProvider",
+                "AeeRouteGenerator\\Providers\\ConsoleServiceProvider"
             ]
         }
     }
